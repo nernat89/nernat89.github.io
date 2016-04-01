@@ -1,0 +1,43 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	font-family: 'San Francisco', 'Helvetica Neue', Tahoma, sans-serif;
+	background-image: linear-gradient(to bottom, #8cf, #468);
+	color: white;
+	min-height: 100vh;
+}
+
+ul.menu {
+	margin: 0 auto;
+	padding: 0;
+	background-color: rgba(0,0,0,0.75);
+	max-width: 720px;
+	overflow: hidden;
+	border-radius: 0px 0px 3px 3px;
+}
+
+ul.menu li {
+	display: inline-block;
+	list-style: none;
+}
+
+ul.menu a {
+	display: block;
+	padding: 4px 8px;
+	color: white;
+	text-decoration: none;
+}
+
+ul.menu a:hover {
+	color: black;
+	background-color: white;
+}
+
+p {
+	box-sizing: border-box;
+	max-width: 720px;
+	margin: 8px auto;
+	background-color: rgba(0,0,0,0.5);
+	padding: 2px 4px;
+	border-radius: 3px;
+}
