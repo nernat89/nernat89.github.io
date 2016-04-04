@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8"/>
-<title>Worst Practices</title>
+<title>Counter</title>
 <link rel="stylesheet" type="text/css" href="ednamode.css"/>
 <script src="https://cdn.localizejs.com/localize.js"></script>
 <script>!function(a){if(!a.Localize){a.Localize={};for(var
@@ -15,15 +15,16 @@ e=["translate","untranslate","phrase","initialize","translatePage","setLanguage"
 </script>
 </head>
 <body>
-<ul class="menu">
-<li><a href="hello.html">Hello</a></li>
-<li><a href="goodbye.html">Goodbye</a></li>
-<li><a href="escape.html">Escape</a></li>
-<li><a href="pop.html">Pop</a></li>
-<li><a href="counter.html">Counter</a></li>
-<li><a href="details.html">Details</a></li>
-</ul>
-<p>I'm going to give the worst.</p>
-<p>But not yet.</p>
+<ul class="menu"><li><a href="index.html">Home</a></li></ul>
+<p id="counterP">0 sheep</p>
+<script type="text/javascript">
+	var c = 0;
+	var id = setInterval(function() {
+		++c;
+		counterP.innerText = c+" sheep";
+		if(c >= 500)
+			clearInterval(id);
+	}, 100);
+</script>
 </body>
 </html>
