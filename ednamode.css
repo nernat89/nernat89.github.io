@@ -2,15 +2,15 @@ html, body {
 	padding: 0;
 	margin: 0;
 	font-family: 'San Francisco', 'Helvetica Neue', Tahoma, sans-serif;
-	background-image: linear-gradient(to bottom, #8cf, #468);
-	color: white;
+	background-image: linear-gradient(to bottom, #349846, #1a4c23);
+	color: #f7f7f7;
 	min-height: 100vh;
 }
 
 ul.menu {
 	margin: 0 auto;
 	padding: 0;
-	background-color: rgba(0,0,0,0.75);
+	background-color: rgba(255,255,255,0.75);
 	max-width: 720px;
 	overflow: hidden;
 	border-radius: 0px 0px 3px 3px;
@@ -24,13 +24,13 @@ ul.menu li {
 ul.menu a {
 	display: block;
 	padding: 4px 8px;
-	color: white;
+	color: #349846;
 	text-decoration: none;
 }
 
 ul.menu a:hover {
-	color: black;
-	background-color: white;
+	color: #f7f7f7;
+	background-image: linear-gradient(to bottom, #f79838, #7c4c1c);
 }
 
 p {
